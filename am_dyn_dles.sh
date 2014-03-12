@@ -2,12 +2,14 @@
 #
 ####################################################################################################
 #
-# NAME: 		am_create_sized_dles.sh
+# NAME: 		am_dyn_dles.sh
 #
 # April, 22nd, 2010 	first draft by Stefan G. Weichinger
 # 			corrections by Jon LaBadie
 #
 # May, 27th, 2010	add commandline-options, sgw
+#
+# March, 12th, 2014	published on github, renamed
 #
 # PURPOSE:
 #
@@ -21,7 +23,7 @@
 # video files. these get deleted and created in a very dynamic way, so it was necessary to 
 # generate fitting include-lists for every run
 #
-# USAGE: /usr/local/bin/am_create_sized_dles.sh DIRECTORY AMANDA-config
+# USAGE: /usr/local/bin/am_dyn_dles.sh DIRECTORY AMANDA-config
 #
 # generates include-files into /etc/amanda/CONFIG/includes
 # which can be used in your DLE via
