@@ -10,6 +10,7 @@ The data is bigger than one tape and it changes every day, so it is difficult to
 
 The am_dyn_dles script is usually called right before running amdump and generates DLEs using include lists. It adds items to the include lists until the estimated size of the DLE is just under the configured $TARGET_DLE_SIZE.
 
+
 By doing so amanda should be able to fit at least one DLE to the available tape media.
 
 -
@@ -19,3 +20,13 @@ This is an early draft and by no way finished, I just want to share it for other
 Stefan G. Weichinger
 
 (1) http://www.amanda.org
+
+-
+
+other files:
+
+1) mythtv_dles.sh  shows an example call for the script.
+
+2) am_create_sized_dles.sh.ver1-jl, am_create_sized_dles.sh.ver2-jl 
+   early discussions with Jon LaBadie, I just added them for reference
+
